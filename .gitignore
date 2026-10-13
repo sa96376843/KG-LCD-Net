@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+data/DRIVE/
+data/CHASEDB1/
+data/cache/chase_arrays/
+ESWA_latex/figs/*
+ESWA_latex/tables/*
+!.gitkeep
