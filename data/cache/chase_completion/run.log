@@ -1,0 +1,37 @@
+2026-10-15 17:57:15 Frozen CHASE_DB1 run started
+2026-10-15 17:57:27 backbone: 500/2500, loss=0.455373
+2026-10-15 17:57:34 backbone: 1000/2500, loss=0.550372
+2026-10-15 17:57:41 backbone: 1500/2500, loss=0.427199
+2026-10-15 18:01:52 Frozen CHASE_DB1 run started
+2026-10-15 18:02:29 Frozen CHASE_DB1 run started
+2026-10-15 18:02:41 backbone: 2000/2500, loss=0.424021
+2026-10-15 18:02:50 backbone: 2500/2500, loss=0.460320
+2026-10-15 18:02:50 backbone: training complete
+2026-10-15 18:05:17 Frozen CHASE_DB1 training phase started
+2026-10-15 18:05:17 backbone: completed checkpoint and probability map found; skipped
+2026-10-15 18:05:34 full: 500/2500, loss=0.609823
+2026-10-15 18:05:44 full: 1000/2500, loss=0.776566
+2026-10-15 18:05:54 full: 1500/2500, loss=0.653969
+2026-10-15 18:06:04 full: 2000/2500, loss=0.620797
+2026-10-15 18:06:15 full: 2500/2500, loss=0.676671
+2026-10-15 18:06:15 full: training complete
+2026-10-15 18:06:23 full: full-image predictions saved
+2026-10-15 18:06:23 Both CHASE_DB1 models and original probability maps completed
+2026-10-15 18:06:53 Frozen CHASE_DB1 evaluation phase started
+2026-10-15 18:06:57 backbone: bridged test image 1/8
+2026-10-15 18:06:59 backbone: bridged test image 2/8
+2026-10-15 18:07:02 backbone: bridged test image 3/8
+2026-10-15 18:07:05 backbone: bridged test image 4/8
+2026-10-15 18:07:08 backbone: bridged test image 5/8
+2026-10-15 18:07:12 backbone: bridged test image 6/8
+2026-10-15 18:07:15 backbone: bridged test image 7/8
+2026-10-15 18:07:18 backbone: bridged test image 8/8
+2026-10-15 18:07:23 full: bridged test image 1/8
+2026-10-15 18:07:25 full: bridged test image 2/8
+2026-10-15 18:07:28 full: bridged test image 3/8
+2026-10-15 18:07:31 full: bridged test image 4/8
+2026-10-15 18:07:35 full: bridged test image 5/8
+2026-10-15 18:07:39 full: bridged test image 6/8
+2026-10-15 18:07:41 full: bridged test image 7/8
+2026-10-15 18:07:45 full: bridged test image 8/8
+2026-10-15 18:07:46 All four CHASE_DB1 conditions completed

@@ -1,0 +1,215 @@
+{
+  "arrays": {
+    "ch_im.npy": {
+      "shape": [
+        28,
+        960,
+        999,
+        3
+      ],
+      "dtype": "uint8"
+    },
+    "ch_gt.npy": {
+      "shape": [
+        28,
+        960,
+        999
+      ],
+      "dtype": "uint8"
+    },
+    "ch_fov.npy": {
+      "shape": [
+        28,
+        960,
+        999
+      ],
+      "dtype": "uint8"
+    },
+    "ch_v.npy": {
+      "shape": [
+        28,
+        960,
+        999
+      ],
+      "dtype": "float16"
+    }
+  },
+  "rgb_decoder_deltas": [
+    {
+      "name": "Image_01L.jpg",
+      "mean_abs": 0.24179978589700812,
+      "max_abs": 24
+    },
+    {
+      "name": "Image_01R.jpg",
+      "mean_abs": 0.21614913524635748,
+      "max_abs": 27
+    },
+    {
+      "name": "Image_02L.jpg",
+      "mean_abs": 0.22807355967078188,
+      "max_abs": 32
+    },
+    {
+      "name": "Image_02R.jpg",
+      "mean_abs": 0.20788983427872318,
+      "max_abs": 25
+    },
+    {
+      "name": "Image_03L.jpg",
+      "mean_abs": 0.24340416805694584,
+      "max_abs": 32
+    },
+    {
+      "name": "Image_03R.jpg",
+      "mean_abs": 0.231591313535758,
+      "max_abs": 31
+    },
+    {
+      "name": "Image_04L.jpg",
+      "mean_abs": 0.19752287009231453,
+      "max_abs": 24
+    },
+    {
+      "name": "Image_04R.jpg",
+      "mean_abs": 0.2228905989322656,
+      "max_abs": 39
+    },
+    {
+      "name": "Image_05L.jpg",
+      "mean_abs": 0.24432279501723947,
+      "max_abs": 42
+    },
+    {
+      "name": "Image_05R.jpg",
+      "mean_abs": 0.25058669780892,
+      "max_abs": 48
+    },
+    {
+      "name": "Image_06L.jpg",
+      "mean_abs": 0.19805048103659215,
+      "max_abs": 24
+    },
+    {
+      "name": "Image_06R.jpg",
+      "mean_abs": 0.1993503920587254,
+      "max_abs": 23
+    },
+    {
+      "name": "Image_07L.jpg",
+      "mean_abs": 0.2295145840284729,
+      "max_abs": 34
+    },
+    {
+      "name": "Image_07R.jpg",
+      "mean_abs": 0.24515209654098544,
+      "max_abs": 39
+    },
+    {
+      "name": "Image_08L.jpg",
+      "mean_abs": 0.17842703814926036,
+      "max_abs": 20
+    },
+    {
+      "name": "Image_08R.jpg",
+      "mean_abs": 0.16535285285285287,
+      "max_abs": 19
+    },
+    {
+      "name": "Image_09L.jpg",
+      "mean_abs": 0.21243708986764542,
+      "max_abs": 55
+    },
+    {
+      "name": "Image_09R.jpg",
+      "mean_abs": 0.21650226615504392,
+      "max_abs": 55
+    },
+    {
+      "name": "Image_10L.jpg",
+      "mean_abs": 0.22960564731398064,
+      "max_abs": 30
+    },
+    {
+      "name": "Image_10R.jpg",
+      "mean_abs": 0.2108469580691803,
+      "max_abs": 27
+    },
+    {
+      "name": "Image_11L.jpg",
+      "mean_abs": 0.25645437103770435,
+      "max_abs": 62
+    },
+    {
+      "name": "Image_11R.jpg",
+      "mean_abs": 0.2357885663441219,
+      "max_abs": 46
+    },
+    {
+      "name": "Image_12L.jpg",
+      "mean_abs": 0.22980689022355688,
+      "max_abs": 43
+    },
+    {
+      "name": "Image_12R.jpg",
+      "mean_abs": 0.26660792737181627,
+      "max_abs": 35
+    },
+    {
+      "name": "Image_13L.jpg",
+      "mean_abs": 0.14114913524635747,
+      "max_abs": 16
+    },
+    {
+      "name": "Image_13R.jpg",
+      "mean_abs": 0.13209389945501057,
+      "max_abs": 16
+    },
+    {
+      "name": "Image_14L.jpg",
+      "mean_abs": 0.24281364698031366,
+      "max_abs": 45
+    },
+    {
+      "name": "Image_14R.jpg",
+      "mean_abs": 0.1809184184184184,
+      "max_abs": 26
+    }
+  ],
+  "train": [
+    "Image_01L.jpg",
+    "Image_01R.jpg",
+    "Image_02L.jpg",
+    "Image_02R.jpg",
+    "Image_03L.jpg",
+    "Image_03R.jpg",
+    "Image_04L.jpg",
+    "Image_04R.jpg",
+    "Image_05L.jpg",
+    "Image_05R.jpg",
+    "Image_06L.jpg",
+    "Image_06R.jpg",
+    "Image_07L.jpg",
+    "Image_07R.jpg",
+    "Image_08L.jpg",
+    "Image_08R.jpg",
+    "Image_09L.jpg",
+    "Image_09R.jpg",
+    "Image_10L.jpg",
+    "Image_10R.jpg"
+  ],
+  "test": [
+    "Image_11L.jpg",
+    "Image_11R.jpg",
+    "Image_12L.jpg",
+    "Image_12R.jpg",
+    "Image_13L.jpg",
+    "Image_13R.jpg",
+    "Image_14L.jpg",
+    "Image_14R.jpg"
+  ],
+  "torch": "2.5.1+cu121",
+  "numpy": "1.26.4",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "disk_free_bytes": 1565196288
+}
